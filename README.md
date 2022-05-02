@@ -13,17 +13,15 @@ REST API with two simple endpoints. Back end was developed in NodeJS and ReactJS
 
 ### Usage
 
-Open the project and go to root directory.
-Install server and client dependencies from there:
+Install server and client dependencies:
 
 ```bash
 npm install
 npm run clientinstall
 ```
 
-Run Server
-
-Go back to the root directory and run of the following:
+Run Express & React :3000 & :5000 with the following command:
 
 ```bash
-npm run dev     # Express & React :3000 & :5000
+npm run dev     
+```
