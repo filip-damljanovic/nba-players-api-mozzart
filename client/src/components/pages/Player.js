@@ -20,7 +20,7 @@ const Player = () => {
 
     if (player && player.games && player.games.length > 0) {
       player.games.map(game => (
-        gameDates.push(<th className="game-date">{game.gameDateUTC}</th>)
+        gameDates.push(<th key={game.gameId} className="game-date">{game.gameDateUTC}</th>)
       ));
     }
 
@@ -32,7 +32,7 @@ const Player = () => {
 
     if (player && player.games && player.games.length > 0) {
       player.games.map(game => (
-        gamesStatArray.push(<td className="bold text-center">{game.stats ? game.stats[stat] : ""}</td>)
+        gamesStatArray.push(<td key={game.gameId} className="bold text-center">{game.stats ? game.stats[stat] : ""}</td>)
       ));
     }
 
@@ -48,7 +48,7 @@ const Player = () => {
     <div>
       <div className="bg-light text-center cursor-pointer p-20">
         <Link to={"/"}>
-          Home
+          Pocetna
         </Link>
       </div>
 
