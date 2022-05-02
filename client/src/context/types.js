@@ -1,0 +1,4 @@
+export const GET_PLAYERS = 'GET_PLAYERS';
+export const GET_PLAYER = 'GET_PLAYER';
+export const CLEAR_PLAYERS = 'CLEAR_PLAYERS';
+export const CLEAR_CURRENT_PLAYER = 'CLEAR_CURRENT_PLAYER';
